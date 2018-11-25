@@ -1,0 +1,37 @@
+@import "../bulma.css";
+@import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
+@import "../animate.css";
+html, body{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    border: 0;
+    height: 100%;
+}
+
+.hcenter{
+    text-align: center;
+}
+
+.second_hr{
+    padding:0;
+    border-bottom:2px solid #00c4a7;
+    position: absolute;
+    float: left;
+    width: 150px;
+    margin-top: -2px;
+}
+@media(min-width: 769px){
+    .height100{
+        height: 100%;
+    }
+
+    .vcenter {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .set-maxheight{
+        max-height: 80vh;
+        overflow-y: auto;
+    }
+}
